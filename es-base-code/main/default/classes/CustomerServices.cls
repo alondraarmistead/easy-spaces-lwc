@@ -5,7 +5,7 @@ public inherited sharing class CustomerServices {
         for (Customer_Fields__mdt c : [
             SELECT
                 Customer_Name__r.QualifiedAPIName,
-                Customer_Email__r.QualifiedAPIName,
+                Customer_Email__r.QualifiedAPIName, //changes added on this class 08/16 8:32 AM
                 Customer_City__r.QualifiedAPIName,
                 Customer_State__r.QualifiedAPIName,
                 Customer_Status__r.QualifiedAPIName

@@ -6,7 +6,7 @@ public with sharing class ReservationManager {
         Schema.SObjectType sObjectType;
         SObject recordToUpdate;
         String objectName;
-        List<Id> sucessIds = new List<Id>();
+        List<Id> sucessIds = new List<Id>(); //changes added to this class 08/16 8:32 AM
         if (recordsToUpdate.size() > 0) {
             // Safe navigate to avoid null pointers
             sObjectType = recordsToUpdate[0].recordId?.getSObjectType();
