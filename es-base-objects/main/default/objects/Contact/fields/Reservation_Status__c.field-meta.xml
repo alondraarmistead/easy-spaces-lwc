@@ -3,7 +3,7 @@
     <fullName>Reservation_Status__c</fullName>
     <externalId>false</externalId>
     <label>Reservation Status</label>
-    <required>false</required>
+    <required>true</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>

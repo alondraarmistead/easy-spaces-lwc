@@ -1,6 +1,6 @@
 public inherited sharing class MarketServices {
     @auraEnabled(cacheable=true)
-    public static List<Space__c> getRelatedSpaces(Id recordId) {
+    public static List<Space__c> getRelatedSpaces(Id recordId) { //Comments
         return [
             SELECT
                 Id,
